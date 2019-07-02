@@ -79,7 +79,13 @@
     </Publisher>
     <RootComponents>
       <RootComponent type="1" schemaName="account" behavior="1" />
+      <RootComponent type="61" schemaName="msdyn_/Images/AIlogo" behavior="0" />
     </RootComponents>
-    <MissingDependencies />
+    <MissingDependencies>
+      <MissingDependency>
+        <Required key="0" type="61" schemaName="msdyn_/Images/AIlogo" displayName="msdyn_/Images/AIlogo" solution="Relationshipassistant (9.0.1.70598)" />
+        <Dependent key="0" type="61" schemaName="msdyn_/Images/AIlogo" displayName="msdyn_/Images/AIlogo" />
+      </MissingDependency>
+    </MissingDependencies>
   </SolutionManifest>
 </ImportExportXml>
