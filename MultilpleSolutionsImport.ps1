@@ -129,7 +129,7 @@ $solutionInfo = Get-XrmSolutionInfoFromZip -SolutionFilePath $file.FullName
     }
     else
     {
-        Write-Host "Skipped Import of Solution."
+        Write-Host "Skipped Import of Solution..."
     }
 }
 Write-Verbose 'Leaving ImportSolution.ps1'
